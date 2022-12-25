@@ -19,7 +19,8 @@ numbers.forEach((item, key)=>{
         }else{
             p.innerHTML += Number(item.innerHTML)
         }
-        a = p.innerHTML
+        var a = Number(p.innerHTML)
+        console.log(a);
     })
 })
 
@@ -32,7 +33,7 @@ parsent.addEventListener('click', ()=>{
 })
 
 split.addEventListener('click', ()=>{
-    p.innerHTML = '0'
-    son
+    b = Number(p.innerHTML)
+    console.log(b)
 })
 
